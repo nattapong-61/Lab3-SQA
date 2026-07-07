@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: MyFirstJUnitJupiterTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.060 s <<< FAILURE! -- in MyFirstJUnitJupiterTests
+MyFirstJUnitJupiterTests.testTC04_NegativeCaseWithNumber -- Time elapsed: 0.031 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <VTD1> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at MyFirstJUnitJupiterTests.testTC04_NegativeCaseWithNumber(MyFirstJUnitJupiterTest.java:46)
+
+MyFirstJUnitJupiterTests.testTC03_PositiveCase -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <VTD> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at MyFirstJUnitJupiterTests.testTC03_PositiveCase(MyFirstJUnitJupiterTest.java:40)
+
+MyFirstJUnitJupiterTests.testTC02_SoftwareLowercase -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <zvmadhyl> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at MyFirstJUnitJupiterTests.testTC02_SoftwareLowercase(MyFirstJUnitJupiterTest.java:34)
+
+MyFirstJUnitJupiterTests.testTC01_SoftwareUppercase -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ZVMADHYL> but was: <VRIWZDUH>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at MyFirstJUnitJupiterTests.testTC01_SoftwareUppercase(MyFirstJUnitJupiterTest.java:28)
+
