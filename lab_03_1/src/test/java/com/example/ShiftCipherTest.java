@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class MyFirstJUnitJupiterTests {
+class ShiftCipherTest {
 
 	@Test
     void testTC01_SoftwareUppercase() {
@@ -19,9 +19,9 @@ class MyFirstJUnitJupiterTests {
     }
 
     @Test
-    void testTC03_PositiveCase() {
+    void testTC02_PositiveCase() {
         ShiftCipher cipher = new ShiftCipher();
-        assertEquals("VTD", cipher.shift("Sqa", 3));
+        assertEquals("KHOOR", cipher.shift("HELLO", 3));
     }
 
     @Test
